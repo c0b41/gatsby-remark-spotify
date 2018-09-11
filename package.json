@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-remark-spotify",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "babel index.js --out-dir ./dist"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "remark",
+    "spotify"
+  ],
+  "dependencies": {
+    "unist-util-visit": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1"
+  },
+  "repository": "https://github.com/c0b41/gatsby-remark-spotify",
+  "author": "c0b41",
+  "license": "MIT"
+}
