@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-spotify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "scripts": {
     "prepublishOnly": "npm run build",
